@@ -69,16 +69,16 @@ const solutions = [
 
 const leadership = [
   { 
-    name: "Wania Shahid", 
-    role: "Founder", 
-    roleFull: "Agency Founder",
+    name: "Salman Noor", 
+    role: "Founder & CEO", 
+    roleFull: "Founder & Chief Executive Officer",
     description: "Directing technical strategies, complex system architectures, and executing high-level growth initiatives across the agency.",
     align: "left"
   },
   { 
-    name: "Salman Noor", 
-    role: "Co-Founder", 
-    roleFull: "Co-Founder & Head of Development",
+    name: "Wania Shahid", 
+    role: "Co-Founder & COO", 
+    roleFull: "Co-Founder & Chief Operating Officer",
     description: "Orchestrating operations down to the microsecond and co-leading development teams to deliver cutting-edge, scalable solutions.",
     align: "right"
   }

@@ -69,14 +69,16 @@ const solutions = [
 
 const leadership = [
   { 
-    name: "Salman Noor", 
-    role: "CEO & Head of Development", 
+    name: "Wania Shahid", 
+    role: "Founder", 
+    roleFull: "Agency Founder",
     description: "Directing technical strategies, complex system architectures, and executing high-level growth initiatives across the agency.",
     align: "left"
   },
   { 
-    name: "Wania Shahid", 
-    role: "COO & Head of Development", 
+    name: "Salman Noor", 
+    role: "Co-Founder", 
+    roleFull: "Co-Founder & Head of Development",
     description: "Orchestrating operations down to the microsecond and co-leading development teams to deliver cutting-edge, scalable solutions.",
     align: "right"
   }
@@ -114,9 +116,9 @@ export default function App() {
               <span>NEURODEVIX</span>
             </div>
             <div className="hidden md:flex items-center gap-10 text-sm font-mono text-slate-400">
-              <a href="#about" className="hover:text-emerald-400 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-slate-700"></div>01. About</a>
-              <a href="#solutions" className="hover:text-emerald-400 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-slate-700"></div>02. Solutions</a>
-              <a href="#team" className="hover:text-emerald-400 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-slate-700"></div>03. Team</a>
+              <a href="#about" className="hover:text-emerald-400 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-slate-700"></div>About</a>
+              <a href="#solutions" className="hover:text-emerald-400 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-slate-700"></div>Solutions</a>
+              <a href="#team" className="hover:text-emerald-400 transition-colors flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-slate-700"></div>Team</a>
               <a href="#contact" className="px-5 py-2.5 border border-emerald-500/30 text-emerald-400 shadow-[inset_0_0_10px_rgba(16,185,129,0.1)] rounded hover:bg-emerald-500/10 hover:shadow-[0_0_15px_rgba(16,185,129,0.2)] transition-all uppercase tracking-wider text-xs">
                 Connect With Us
               </a>
@@ -302,7 +304,8 @@ export default function App() {
                   </div>
                   <div className="relative z-10">
                     <h4 className="text-3xl font-display font-bold text-white mb-2">{leader.name}</h4>
-                    <p className="text-emerald-400 font-mono text-sm mb-6 pb-6 border-b border-slate-800">{leader.role}</p>
+                    <p className="text-emerald-400 font-mono text-xl mb-1">{leader.role}</p>
+                    <p className="text-emerald-500/70 font-mono text-xs mb-6 pb-6 border-b border-slate-800 uppercase tracking-widest">{leader.roleFull}</p>
                     <p className="text-slate-400 text-lg leading-relaxed max-w-sm">{leader.description}</p>
                   </div>
                 </motion.div>
